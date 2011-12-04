@@ -40,7 +40,7 @@ else
 endif
 LOCAL_STATIC_LIBRARIES += libext4_utils libz
 LOCAL_STATIC_LIBRARIES += libminzip libunz libmtdutils libmincrypt
-LOCAL_STATIC_LIBRARIES += libminui libpixelflinger_static libpng libcutils
+LOCAL_STATIC_LIBRARIES += libminui libpixelflinger_static libpng libcutils libm
 LOCAL_STATIC_LIBRARIES += libstdc++ libc
 
 LOCAL_C_INCLUDES += system/extras/ext4_utils
