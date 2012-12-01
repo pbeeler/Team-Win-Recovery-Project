@@ -7,5 +7,5 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS:= eng
 LOCAL_MODULE := libmincrypt
-LOCAL_SRC_FILES := ../../../system/core/libmincrypt/rsa.c ../../../system/core/libmincrypt/sha.c
+LOCAL_SRC_FILES := ../../../system/core/libmincrypt/rsa.c ../../../system/core/libmincrypt/sha.c ../../../system/core/libmincrypt/rsa_e_3.c ../../../system/core/libmincrypt/rsa_e_f4.c
 include $(BUILD_SHARED_LIBRARY)
